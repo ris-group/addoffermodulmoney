@@ -12,9 +12,9 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-    url: 'https://pnqjonorpucuhbymwfmp.supabase.co',
+    url: 'https://pbkuabbyzdeyguhxmdqo.supabase.co',
     anonKey:
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBucWpvbm9ycHVjdWhieW13Zm1wIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjMxMTgwMzYsImV4cCI6MjA3ODY5NDAzNn0.yVU3k0weLcDCs2L4tF9hSgN9_EykF83BsipTuF4D5yc',
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBia3VhYmJ5emRleWd1aHhtZHFvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjMzNzU4MzQsImV4cCI6MjA3ODk1MTgzNH0.hXesYj-JnhJZ7gZbmNK-YHb0oYMvpJnt6yh96Dxs_C0',
   );
 
   runApp(const MyApp());
